@@ -265,6 +265,26 @@ body {
   letter-spacing: .01em;
 }
 
+.web-alt {
+  font-size: .82rem;
+  color: var(--t2);
+  margin-top: 4px;
+  letter-spacing: .01em;
+}
+
+.web-alt-link {
+  color: var(--t2);
+  text-decoration: underline;
+  text-decoration-color: var(--b2);
+  text-underline-offset: 3px;
+  transition: color var(--ease), text-decoration-color var(--ease);
+}
+
+.web-alt-link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
 
 /* ===== WHY ===== */
 .why {
